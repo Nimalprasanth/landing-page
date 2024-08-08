@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    body{
+        background-color: #f5f5f5;
+    }
+    .container{
+        width: 80%;
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #ffff;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    
+    }
+     .container h2{
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    form input,
+    form textarea{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #f7f7f7;
+        color: #333;
+    }
+    form input:focus,
+    form textarea:focus{
+        outline: none;
+        box-shadow: 0 0 5px #333;
+    }
+    form button{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    form button:hover{
+        background-color: #555;
+    
+    }
+    .navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    height: 45px;
+    position: sticky;
+    
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #555;
+    color: white;
+}
+ul li a:hover{
+    background-color: grey;
+    color: blue;
+    border-radius: 15px;
+}
+nav ul li a:hover{
+    color: blue;
+}
+.footer{
+    margin-top: 10px;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+    background-color: #111;
+    margin-top: 30px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+
+}
+.social a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.social a i{
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+}
+
+.social a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.social a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+}
+.footer ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerbottom{
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+}
+ul li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+.container{
+    margin-top: 125px;
+}
+
+</style> 
+<div class="navbar">
+        
+    
+    <nav>
+        <ul id="MenuItems">
+          <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+          <li><a href="http://127.0.0.1:5500/about.html#partners.html">About</a></li>
+          <li><a href="http://127.0.0.1:5500/partners.html">partners</a></li>
+          <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</div>   
+    <div class="container">
+    <h2>contact</h2>
+    <form>
+        <input type="text" placeholder="your name">
+        <input type="email" placeholder="your email">
+        <textarea placeholder="your message"></textarea>
+        <button type="submit">send</button>
+    </form>
+     
+    </div><br><br>
+    <div class="footercontainer">
+        <div class="social">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a> 
+        </div>
+        <div class="footer">
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">news</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">contact us</a></li>
+                <li><a href="">our team</a></li>
+            </ul>
+        </div>
+        <div class="footerbottom">
+            <p>copyright &copy;2022 designedd by Nimal</p>
+        </div>
+    </div>
+    
+</body>
+</html>
